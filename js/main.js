@@ -10,11 +10,14 @@ function renderHTML() {
 <h1 class="main-header" style="text-align: left">chris_eliason</h1>
 </div>
 <div>
-<h2 class="sub-header" style="text-align: end">full-stack_developer</h2>
+<h4 class="sub-header" style="text-align: start">full-stack_developer</h4>
 </div>
-<div id="button-group-1">
+<a href="#menu" class="menu">
+<img id="menu" src="../assets/menu.png" alt="Menu button">
+</a>
+<div class="btngrp hide">
 <div>
-<button href="#gallery" id="gallery-btn">gallery</button>
+<button id="gallery-btn">gallery</button>
 <p id="gallery" class="gallery" style="display: none">on this page you can browse some of my work</p>
 </div>
 <div>
@@ -27,6 +30,11 @@ function renderHTML() {
 </div>
 </div>`
     $('#body').html(html)
-    $('body').css('margin', '2em');
-    $('button').css('width', 'auto');
+    $('#menu').on('click', function(e){
+        e.preventDefault();
+        $('.btngrp').toggleClass('hide');
+    });
+
+
+
 }
