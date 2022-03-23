@@ -1,0 +1,51 @@
+body {
+    background-color: white;
+    color: black;
+    font-family: Andale Mono;
+    font-size: 15px;
+}
+
+
+button {
+    background-color: white;
+    border-color: white;
+    border-style: none;
+    color: black;
+}
+
+#button-group-1 {
+    font-size: 10px;
+}
+#contact-btn{
+font-size: 10px;
+}
+#about-btn{
+    font-size: 10px;
+}
+#gallery-btn{
+    font-size: 10px;
+}
+
+#contact-btn:hover {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 100px;
+}
+
+#about-btn:hover {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 100px;
+}
+
+#gallery-btn:hover {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 100px;
+}
+
+
+
