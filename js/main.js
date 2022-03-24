@@ -8,12 +8,12 @@ function renderHTML() {
     html +=
         `
 <div class="main row">
-<h1 class="main-header col-7" style="text-align: left">chris_eliason</h1>
+<h1 class="main-header col-12">chris_eliason</h1>
 </div>
 <div class="sub row">
-<h6 class="sub-header col-6" style="text-align: start">full-stack developer</h6>
+<h6 class="sub-header col-9">full-stack developer</h6>
 </div>
-<div class="btngrp me-5 row">
+<div class="btngrp  row">
 <div class="col-4">
 <button id="gallery-btn">projects</button>
 <p id="gallery" class="gallery" style="display: none">on this page you can browse some of my work</p>
@@ -27,12 +27,13 @@ function renderHTML() {
 <p id="contact" class="contact" style="display: none">if you like what you see or have any questions, feel free to contact me though the following ways</p>
 </div>
 </div>
-<hr class="me-3">
+<hr class="me-3" style="width: 100%">
 <div class="intro me-3" style="font-size: 10px">
 <p>here on this page you will be able to view some of my work</p>
 <p>please contact me with any questions you may have and enjoy your stay</p>
 </div>
 <br>
+<section class="projects">
 <div class="card me-3">
   <div class="card-body" style="background-color: #749280">
     <h5 class="card-title text-center">Weather Map</h5>
@@ -61,7 +62,7 @@ function renderHTML() {
     <a href="#" class="btn" style="background-color: #749280">Check it out here!</a>
   </div>
 </div>
-<hr>
+<br>
 <div class="card me-3">
   <div class="card-body" style="background-color: #749280">
     <h5 class="card-title text-center">Coffee Project</h5>
@@ -92,11 +93,23 @@ function renderHTML() {
     <span class="visually-hidden">Next</span>
   </button>
 </div>
-    <p class="card-text">This was a group project I participated in.</p>
-    <a href="#" class="btn" style="background-color: #749280">Check it out here!</a>
+    <p class="card-text">A really fun group project!</p>
+    <a href="https://james-chris-mark.github.io/coffee-project/" target="_blank" class="btn" style="background-color: #749280">Check it out here!</a>
   </div>
 </div>
+<br>
+<!--insert new project gallery here-->
+</section>
+<section class="aboutme">
+<div>
+<p>my name is chris eliason</p>
+<p>i live in ft worth, tx</p>
+<p></p>
 
+</div>
+
+
+</section>
 
 
 

@@ -12,22 +12,35 @@ body {
 
 
 }
+.main-header{
+    text-align: left;
+}
+.sub-header{
+    text-align: left;
+}
 button{
     border-style: solid;
     border-color: #749280;
     border-radius: 100px;
+
 }
 .btngrp{
     padding-top: 1em;
     padding-bottom: 1em;
-    justify-content: space-around;
+
 }
 .intro{
     margin-top: 6em;
     max-width: 400px;
 }
 .card{
-    border-style: none;
+
+    border-style: solid;
+    border-color: #535349;
+}
+.aboutme{
+    font-size: 10px;
+    text-align: center;
 }
 
 #contact-btn{
