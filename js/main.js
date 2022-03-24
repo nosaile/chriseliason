@@ -47,17 +47,18 @@ function renderHTML() {
 </ul>
 </div>
 </nav2>
-<nav3 class="navbar navbar-expand-lg navbar-light bg-light d-none d-md-block .d-lg-none" style="background-color: #9f9f95">
-  <div class="container-fluid" style="background-color: #9f9f95">
-    <a class="navbar-brand" href="#">Navbar</a>
+<nav3 class="navbar navbar-expand-lg navbar-light d-none d-md-block .d-lg-none" style="background-color: #9f9f95">
+  <div class="container-fluid">
+    <h1 class="head-header">chris_eliason</h1>
+    <h6 class="sub-header ps-5 pt-3 d-flex align-self-center">full-stack developer</h6>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-link active" aria-current="page" href="#">Home</a>
-        <a class="nav-link" href="#">Features</a>
-        <a class="nav-link" href="#">Pricing</a>
+        <a class="nav-link gallery" href="#">Projects</a>
+        <a class="nav-link about" href="#">About</a>
+        <a class="nav-link contact" href="#">Contact</a>
       </div>
     </div>
   </div>
