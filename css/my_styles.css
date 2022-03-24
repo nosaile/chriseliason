@@ -42,55 +42,17 @@ button{
     font-size: 10px;
     text-align: center;
 }
-
-#contact-btn{
-    font-weight: bold;
-font-size: 10px;
+.nav{
+    background-color: #9f9f95;
+    z-index: 100;
+}
+.nav-link{
     color: #535349;
-    background-color: #9f9f95;
-
 }
-#about-btn{
-    font-weight: bold;
-    font-size: 10px;
-    color: #535349;
-    background-color: #9f9f95;
-
-}
-#gallery-btn{
-    font-weight: bold;
-    font-size: 10px;
-    color: #535349;
-    background-color: #9f9f95;
-
+.nav-link:hover{
+    color: white;
 }
 
-#contact-btn:hover {
-    background-color: #9f9f95;
-    color: #f5f3f0;
-    text-shadow:2px 3px #749280;
-    font-weight: bold;
-    border-radius: 100px;
-    border-color: #535349;
-}
-
-#about-btn:hover {
-    background-color: #9f9f95;
-    color: #f5f3f0;
-    text-shadow:2px 3px #749280;
-    font-weight: bold;
-    border-radius: 100px;
-    border-color: #535349;
-}
-
-#gallery-btn:hover {
-    background-color: #9f9f95;
-    color: #f5f3f0;
-    text-shadow:2px 3px #749280;
-    font-weight: bold;
-    border-radius: 100px;
-    border-color: #535349;
-}
 
 
 

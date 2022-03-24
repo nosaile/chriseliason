@@ -13,27 +13,25 @@ function renderHTML() {
 <div class="sub row">
 <h6 class="sub-header col-9">full-stack developer</h6>
 </div>
-<div class="btngrp  row">
-<div class="col-4">
-<button id="gallery-btn">projects</button>
-<p id="gallery" class="gallery" style="display: none">on this page you can browse some of my work</p>
-</div>
-<div class="col-4">
-<button id="about-btn">about</button>
-<p id="about" class="about" style="display: none">get to know me</p>
-</div>
-<div class="col-4">
-<button id="contact-btn">contact</button>
-<p id="contact" class="contact" style="display: none">if you like what you see or have any questions, feel free to contact me though the following ways</p>
-</div>
-</div>
+<hr class="me-3" style="width: 100%">
+<ul class="nav sticky-top justify-content-center">
+  <li class="nav-item">
+    <a class="nav-link" href="#projects">projects</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#aboutme">about</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">contact</a>
+  </li>
+</ul>
 <hr class="me-3" style="width: 100%">
 <div class="intro me-3" style="font-size: 10px">
 <p>here on this page you will be able to view some of my work</p>
 <p>please contact me with any questions you may have and enjoy your stay</p>
 </div>
 <br>
-<section class="projects">
+<section id="projects" class="projects">
 <div class="card me-3">
   <div class="card-body" style="background-color: #749280">
     <h5 class="card-title text-center">Weather Map</h5>
@@ -100,15 +98,12 @@ function renderHTML() {
 <br>
 <!--insert new project gallery here-->
 </section>
-<section class="aboutme">
+<section id="aboutme" class="aboutme">
 <div>
 <p>my name is chris eliason</p>
 <p>i live in ft worth, tx</p>
 <p></p>
-
 </div>
-
-
 </section>
 
 
