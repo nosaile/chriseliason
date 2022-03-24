@@ -26,10 +26,10 @@ function renderHTML() {
   </li>
 </ul>
 <hr class="me-3" style="width: 100%">
-<div class="intro me-3" style="font-size: 10px">
-<p>here on this page you will be able to view some of my work</p>
-<p>please contact me with any questions you may have and enjoy your stay</p>
-</div>
+<!--<div class="intro me-3" style="font-size: 10px">-->
+<!--<p>here on this page you will be able to view some of my work</p>-->
+<!--<p>please contact me with any questions you may have and enjoy your stay</p>-->
+<!--</div>-->
 <br>
 <section id="projects" class="hide">
 <div class="card me-3">
@@ -57,7 +57,7 @@ function renderHTML() {
   </button>
 </div>
     <p class="card-text">This was my first solo project!</p>
-    <a href="#" class="btn" style="background-color: #749280">Check it out here!</a>
+    <a href="https://github.com/nosaile/codeup-web-exercises" target="_blank" class="btn" style="background-color: #749280">Check it out here!</a>
   </div>
 </div>
 <br>
@@ -111,8 +111,10 @@ function renderHTML() {
     Let's Connect!
   </div>
   <ul class="list-group text-center list-group-flush">
-    <li class="list-group-item">eliason.chris1@gmail.com</li>
     <li class="list-group-item"><a class="github_link" href="https://github.com/nosaile" target="_blank">github</a></li>
+    <li class="list-group-item"><a class="linkedin_link" href="https://www.linkedin.com/in/christopher-eliason-3649b4231/" target="_blank">LinkedIn</a></li>
+    <li class="list-group-item">eliason.chris1@gmail.com</li>
+
   </ul>
 </div>
 </section>

@@ -61,16 +61,27 @@ button{
 .card-header{
     background-color: #9f9f95;
 }
+.projects{
+}
 
 .hide{
     display: none;
 }
-.github-link{
+.github-_link{
     color: #535349;
     text-underline: none;
 }
 
 .github_link:visited{
+    color: #535349;
+    text-underline: none;
+}
+.linkedin_link{
+    color: #535349;
+    text-underline: none;
+}
+
+.linkedin_link:visited{
     color: #535349;
     text-underline: none;
 }
