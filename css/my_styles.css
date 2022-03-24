@@ -2,7 +2,8 @@
 
 
 body {
-margin: 3em;
+    margin: 3em;
+    margin-top: 1em;
     background-color: #9f9f95;
     color: #535349;
     font-family: Andale Mono;
@@ -19,11 +20,14 @@ button{
 .btngrp{
     padding-top: 1em;
     padding-bottom: 1em;
-    max-width: 400px;
-
+    justify-content: space-around;
 }
 .intro{
+    margin-top: 6em;
     max-width: 400px;
+}
+.card{
+    border-style: none;
 }
 
 #contact-btn{
