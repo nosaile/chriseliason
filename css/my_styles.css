@@ -1,71 +1,78 @@
+
+
+
 body {
-    margin: 3em;
+margin: 3em;
     background-color: #9f9f95;
-    color: #f5f3f0;
+    color: #535349;
     font-family: Andale Mono;
     font-size: 15px;
     text-shadow:2px 2px #749280;
+
+
+}
+button{
+    border-style: solid;
+    border-color: #749280;
+    border-radius: 100px;
+}
+.btngrp{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    max-width: 400px;
+
+}
+.intro{
+    max-width: 400px;
 }
 
-
-
-button {
-    background-color: white;
-    border-color: white;
-    border-style: none;
-    text-align: left;
-
-    width: 25%;
-}
-#menu{
-    height: 15%;
-    width: 15%
-}
-
-.hide{
-    display: none;
-}
 #contact-btn{
     font-weight: bold;
 font-size: 10px;
-    color: #f5f3f0;
+    color: #535349;
     background-color: #9f9f95;
+
 }
 #about-btn{
     font-weight: bold;
     font-size: 10px;
-    color: #f5f3f0;
+    color: #535349;
     background-color: #9f9f95;
+
 }
 #gallery-btn{
     font-weight: bold;
     font-size: 10px;
-    color: #f5f3f0;
+    color: #535349;
     background-color: #9f9f95;
+
 }
 
 #contact-btn:hover {
     background-color: #9f9f95;
-    color: #535349;
+    color: #f5f3f0;
     text-shadow:2px 3px #749280;
     font-weight: bold;
     border-radius: 100px;
+    border-color: #535349;
 }
 
 #about-btn:hover {
     background-color: #9f9f95;
-    color: #535349;
+    color: #f5f3f0;
     text-shadow:2px 3px #749280;
     font-weight: bold;
     border-radius: 100px;
+    border-color: #535349;
 }
 
 #gallery-btn:hover {
     background-color: #9f9f95;
-    color: #535349;
+    color: #f5f3f0;
     text-shadow:2px 3px #749280;
     font-weight: bold;
     border-radius: 100px;
+    border-color: #535349;
 }
 
 
