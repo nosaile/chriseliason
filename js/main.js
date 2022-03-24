@@ -7,29 +7,63 @@ function renderHTML() {
     let html = "";
     html +=
         `
-<div class="main row">
-<h2 class="main-header me-3 col-12">chris_eliason</h2>
+<nav1 class="navbar sticky-top navbar-expand-lg navbar-light d-block d-sm-none" style="background-color: #9f9f95">
+  <div class="container-fluid">
+  <div class="main row">
+<h2 class="main-header me-3 sticky-top">chris_eliason</h2>
 </div>
-<div class="sub row">
-<h6 class="sub-header col-9">full-stack developer</h6>
+    <h6 class="sub-header">full-stack developer</h6>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link gallery" href="#">projects</a>
+        <a class="nav-link about" href="#">about</a>
+        <a class="nav-link contact" href="#">contact</a>
+      </div>
+    </div>
+  </div>
+</nav1>
+<nav2>
+<div class="small-break d-none d-sm-block d-md-none">
+<div class="main row">
+<h2 class="main-header me-3">chris_eliason</h2>
+</div>
+<div class="sub">
+<h6 class="sub-header">full-stack developer</h6>
 </div>
 <hr class="me-3" style="width: 100%">
-<ul class="nav sticky-top justify-content-center">
+<ul class="nav sticky-top justify-content-start">
   <li class="nav-item">
-    <a class="nav-link gallery" href="#projects">projects</a>
+    <a class="nav-link gallery ps-0">projects</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link about" href="#aboutme">about</a>
+    <a class="nav-link about">about</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link contact" href="#">contact</a>
+    <a class="nav-link contact">contact</a>
   </li>
 </ul>
+</div>
+</nav2>
+<nav3 class="navbar navbar-expand-lg navbar-light bg-light d-none d-md-block .d-lg-none" style="background-color: #9f9f95">
+  <div class="container-fluid" style="background-color: #9f9f95">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link active" aria-current="page" href="#">Home</a>
+        <a class="nav-link" href="#">Features</a>
+        <a class="nav-link" href="#">Pricing</a>
+      </div>
+    </div>
+  </div>
+</nav3>
+
 <hr class="me-3" style="width: 100%">
-<!--<div class="intro me-3" style="font-size: 10px">-->
-<!--<p>here on this page you will be able to view some of my work</p>-->
-<!--<p>please contact me with any questions you may have and enjoy your stay</p>-->
-<!--</div>-->
 <br>
 <section id="projects" class="hide">
 <div class="card me-3">
@@ -105,7 +139,7 @@ function renderHTML() {
 <p>i enjoy spending time outdoors on my bike riding trails, and along the trinity river</p>
 </div>
 </section>
-<section id="contact">
+<section id="contact" class="hide">
 <div class="card me-3">
   <div class="card-header text-center text-dark">
     Let's Connect!
@@ -114,7 +148,6 @@ function renderHTML() {
     <li class="list-group-item"><a class="github_link" href="https://github.com/nosaile" target="_blank">github</a></li>
     <li class="list-group-item"><a class="linkedin_link" href="https://www.linkedin.com/in/christopher-eliason-3649b4231/" target="_blank">LinkedIn</a></li>
     <li class="list-group-item">eliason.chris1@gmail.com</li>
-
   </ul>
 </div>
 </section>
