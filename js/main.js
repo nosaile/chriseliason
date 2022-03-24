@@ -8,7 +8,7 @@ function renderHTML() {
     html +=
         `
 <div class="main row">
-<h1 class="main-header col-12">chris_eliason</h1>
+<h2 class="main-header me-3 col-12">chris_eliason</h2>
 </div>
 <div class="sub row">
 <h6 class="sub-header col-9">full-stack developer</h6>
@@ -16,13 +16,13 @@ function renderHTML() {
 <hr class="me-3" style="width: 100%">
 <ul class="nav sticky-top justify-content-center">
   <li class="nav-item">
-    <a class="nav-link" href="#projects">projects</a>
+    <a class="nav-link gallery" href="#projects">projects</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#aboutme">about</a>
+    <a class="nav-link about" href="#aboutme">about</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#">contact</a>
+    <a class="nav-link contact" href="#">contact</a>
   </li>
 </ul>
 <hr class="me-3" style="width: 100%">
@@ -31,7 +31,7 @@ function renderHTML() {
 <p>please contact me with any questions you may have and enjoy your stay</p>
 </div>
 <br>
-<section id="projects" class="projects">
+<section id="projects" class="hide">
 <div class="card me-3">
   <div class="card-body" style="background-color: #749280">
     <h5 class="card-title text-center">Weather Map</h5>
@@ -98,11 +98,22 @@ function renderHTML() {
 <br>
 <!--insert new project gallery here-->
 </section>
-<section id="aboutme" class="aboutme">
+<section id="aboutme" class="aboutme hide">
 <div>
 <p>my name is chris eliason</p>
 <p>i live in ft worth, tx</p>
-<p></p>
+<p>i enjoy spending time outdoors on my bike riding trails, and along the trinity river</p>
+</div>
+</section>
+<section id="contact">
+<div class="card me-3">
+  <div class="card-header text-center text-dark">
+    Let's Connect!
+  </div>
+  <ul class="list-group text-center list-group-flush">
+    <li class="list-group-item">eliason.chris1@gmail.com</li>
+    <li class="list-group-item"><a class="github_link" href="https://github.com/nosaile" target="_blank">github</a></li>
+  </ul>
 </div>
 </section>
 
@@ -110,11 +121,20 @@ function renderHTML() {
 
 `
     $('#body').html(html)
-    $('#menu').on('click', function(e){
+
+
+    $('.about').on('click', function (e) {
         e.preventDefault();
-        $('.btngrp').toggleClass('hide');
+        $('.aboutme').toggleClass('hide');
     });
 
+    $('.gallery').on('click', function (e) {
+        e.preventDefault();
+        $('#projects').toggleClass('hide');
+    });
 
-
+    $('.contact').on('click', function (e) {
+        e.preventDefault();
+        $('#contact').toggleClass('hide');
+    });
 }

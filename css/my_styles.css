@@ -52,6 +52,28 @@ button{
 .nav-link:hover{
     color: white;
 }
+.nav-link:visited{
+    color: #535349;
+}
+.list-group-item{
+    background-color: #9f9f95;
+}
+.card-header{
+    background-color: #9f9f95;
+}
+
+.hide{
+    display: none;
+}
+.github-link{
+    color: #535349;
+    text-underline: none;
+}
+
+.github_link:visited{
+    color: #535349;
+    text-underline: none;
+}
 
 
 
