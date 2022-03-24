@@ -5,7 +5,8 @@ renderHTML()
 
 function renderHTML() {
     let html = "";
-    html += `<nav1 class="navbar sticky-top navbar-expand-lg navbar-light d-block d-sm-none" style="background-color: #9f9f95">
+    html += `
+<nav1 class="navbar sticky-top navbar-expand-lg navbar-light d-block d-sm-none" style="background-color: #9f9f95">
   <div class="container-fluid">
   <div class="main row">
 <h2 class="main-header me-3 sticky-top">chris_eliason</h2>
