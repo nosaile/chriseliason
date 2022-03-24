@@ -23,10 +23,9 @@ body {
     max-width: 400px;
 }
 .card{
-    z-index: -1000;
 
     border-style: solid;
-    border-color: #535349;
+    border-color: white;
 }
 .aboutme{
     font-size: 10px;

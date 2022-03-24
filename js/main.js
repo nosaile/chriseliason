@@ -5,9 +5,7 @@ renderHTML()
 
 function renderHTML() {
     let html = "";
-    html +=
-        `
-<nav1 class="navbar sticky-top navbar-expand-lg navbar-light d-block d-sm-none" style="background-color: #9f9f95">
+    html += `<nav1 class="navbar sticky-top navbar-expand-lg navbar-light d-block d-sm-none" style="background-color: #9f9f95">
   <div class="container-fluid">
   <div class="main row">
 <h2 class="main-header me-3 sticky-top">chris_eliason</h2>
@@ -26,7 +24,7 @@ function renderHTML() {
   </div>
 </nav1>
 <nav2>
-<div class="small-break d-none d-sm-block d-md-none">
+<div class="small-break sticky-top d-none d-sm-block d-md-none" style="background-color: #9f9f95">
 <div class="main row">
 <h2 class="main-header me-3">chris_eliason</h2>
 </div>
@@ -47,7 +45,7 @@ function renderHTML() {
 </ul>
 </div>
 </nav2>
-<nav3 class="navbar navbar-expand-lg navbar-light d-none d-md-block .d-lg-none" style="background-color: #9f9f95">
+<nav3 class="navbar sticky-top navbar-expand-lg navbar-light d-none d-md-block .d-lg-none" style="background-color: #9f9f95">
   <div class="container-fluid">
     <h1 class="head-header">chris_eliason</h1>
     <h6 class="sub-header ps-5 pt-3 d-flex align-self-center">full-stack developer</h6>
@@ -63,7 +61,6 @@ function renderHTML() {
     </div>
   </div>
 </nav3>
-
 <hr class="me-3" style="width: 100%">
 <br>
 <section id="projects" class="hide">
@@ -152,12 +149,8 @@ function renderHTML() {
   </ul>
 </div>
 </section>
-
-
-
 `
     $('#body').html(html)
-
 
     $('.about').on('click', function (e) {
         e.preventDefault();
