@@ -1,12 +1,10 @@
 "use strict";
-
-
 renderHTML()
 
 function renderHTML() {
     let html = "";
     html += `
-<nav1 class="navbar sticky-top navbar-expand-lg navbar-light d-block d-sm-none" style="background-color: #9f9f95">
+<nav1 class="navbar sticky-top navbar-expand-lg navbar-light d-block d-sm-none bg-none ps-5 pe-5" style="background-color: #84857b">
   <div class="container-fluid">
   <div class="main row">
 <h2 class="main-header me-3 sticky-top">chris_eliason</h2>
@@ -25,15 +23,14 @@ function renderHTML() {
   </div>
 </nav1>
 <nav2>
-<div class="small-break sticky-top d-none d-sm-block d-md-none" style="background-color: #9f9f95">
+<div class="small-break sticky-top d-none d-sm-block d-md-none ps-5 pe-5" style="background-color: #84857b">
 <div class="main row">
 <h2 class="main-header me-3">chris_eliason</h2>
 </div>
 <div class="sub">
 <h6 class="sub-header">full-stack developer</h6>
 </div>
-<hr class="me-3" style="width: 100%">
-<ul class="nav sticky-top justify-content-start">
+<ul class="nav sticky-top justify-content-start" style="background-color: #84857b">
   <li class="nav-item">
     <a class="nav-link gallery ps-0">projects</a>
   </li>
@@ -46,8 +43,8 @@ function renderHTML() {
 </ul>
 </div>
 </nav2>
-<nav3 class="navbar sticky-top navbar-expand-lg navbar-light d-none d-md-block .d-lg-none" style="background-color: #9f9f95">
-  <div class="container-fluid">
+<nav3 class="navbar sticky-top navbar-expand-lg navbar-light d-none d-md-block .d-lg-none ps-5 pe-5" style="background-color: #84857b">
+  <div class="container-fluid mx-o px-0">
     <h1 class="head-header">chris_eliason</h1>
     <h6 class="sub-header ps-5 pt-3 d-flex align-self-center">full-stack developer</h6>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -62,9 +59,9 @@ function renderHTML() {
     </div>
   </div>
 </nav3>
-<hr class="me-3" style="width: 100%">
 <br>
-<div class="allmain row">
+<div class="content">
+<div class="allmain row justify-content-center">
 <section class="col-lg-6 hide" id="projects">
 <div class="card me-3">
   <div class="card-body" style="background-color: #749280">
@@ -90,8 +87,9 @@ function renderHTML() {
     <span class="visually-hidden">Next</span>
   </button>
 </div>
-    <p class="card-text">This was my first solo project!</p>
-    <a href="https://github.com/nosaile/codeup-web-exercises" target="_blank" class="btn" style="background-color: #749280">Check it out here!</a>
+    <p class="card-text">This was my first solo project! I was tasked with creating a weather app that had a range of functionality. It includes a search function, custom location pin, and a drag and drop pin.
+    It updates the weather based off of where the pin is located on the map.</p>
+    <a href="https://github.com/nosaile/codeup-web-exercises/blob/main/JS/weathermap_project.js" target="_blank" class="btn" style="background-color: #749280; border-style: solid; border-color: #9f9f95">Check out the code  here!</a>
   </div>
 </div>
 <br>
@@ -125,44 +123,37 @@ function renderHTML() {
     <span class="visually-hidden">Next</span>
   </button>
 </div>
-    <p class="card-text">A really fun group project!</p>
-    <a href="https://james-chris-mark.github.io/coffee-project/" target="_blank" class="btn" style="background-color: #749280">Check it out here!</a>
+    <p class="card-text">A really fun group project! We had the assignment of creating a webpage for a fictional coffee company. We implemented many features into our design including many filter options to narrow help assist the customer by narrowing their search accurately. We also have added an ability to create a custom coffee and give the customer the ability to add that coffee to the menu.</p>
+    <a href="https://james-chris-mark.github.io/coffee-project/" target="_blank" class="btn" style="background-color: #749280; border-style: solid; border-color: #9f9f95">Check it out here!</a>
   </div>
 </div>
 <br>
 <!--insert new project gallery here-->
 </section>
 <div class="col-lg-6">
-<section id="aboutme" class="aboutme hide">
+<section id="aboutme" class="aboutme card hide" style="background-color: #749280">
 <div>
-<p>my name is chris eliason</p>
-<p>i live in ft worth, tx</p>
-<p>i enjoy spending time outdoors on my bike riding trails, and along the trinity river</p>
-<p>currently i am in school to become a web developer</p>
+<p>My name is Chris Eliason</p>
+<p>I live in ft worth, tx</p>
+<p>I enjoy spending time outdoors on my bike riding trails, and along the trinity river</p>
+<p>Currently I am in school to become a web developer learning skills in javascript, html, css, java, MySQL and spring</p>
 </div>
 </section>
+<br>
 <section id="contact">
-<div class="card me-3">
-  <div class="card-header text-center text-dark">
+<div class="card me-3 highlight" >
+  <div class="card-header text-center text-dark me-0" style="background-color: #749280">
     Let's Connect!
   </div>
-  <ul class="list-group text-center list-group-flush">
-    <li class="list-group-item"><a class="github_link" href="https://github.com/nosaile" target="_blank">github</a></li>
-    <li class="list-group-item"><a class="linkedin_link" href="https://www.linkedin.com/in/christopher-eliason-3649b4231/" target="_blank">LinkedIn</a></li>
-    <li class="list-group-item">eliason.chris1@gmail.com</li>
+  <ul class="list-group contact-list text-center list-group-flush">
+    <li class="list-group-item" style="background-color: #749280"><a class="github_link" href="https://github.com/nosaile" target="_blank">github</a></li>
+    <li class="list-group-item" style="background-color: #749280"><a class="linkedin_link" href="https://www.linkedin.com/in/christopher-eliason-3649b4231/" target="_blank">LinkedIn</a></li>
+    <li class="list-group-item" style="background-color: #749280">eliason.chris1@gmail.com</li>
   </ul>
 </div>
 </section>
 </div>
-<!--<div id="cloud1">-->
-<!--  <img src="../assets/clouds.png" width=200px height=100px>-->
-<!--</div> -->
-<!--<div id="cloud2">-->
-<!--  <img src="../assets/clouds.png" width=200px height=100px>-->
-<!--</div> -->
-<!--<div id="cloud3">-->
-<!--  <img src="../assets/clouds.png" width=200px height=100px>-->
-<!--</div> -->
+</div>
 </div>
 
 `
@@ -177,9 +168,12 @@ function renderHTML() {
         e.preventDefault();
         $('#projects').toggleClass('hide');
     });
-
     $('.contact').on('click', function (e) {
         e.preventDefault();
         $('#contact').toggleClass('hide');
+    });
+
+    $('.head-header').on('click', function (e) {
+        location.reload()
     });
 }

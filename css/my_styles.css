@@ -1,92 +1,126 @@
 
-
-
 body {
-    margin: 3em;
     margin-top: 1em;
     background-color: #9f9f95;
+    background-image: url("../assets/clouds.png");
     color: #535349;
-    font-family: Andale Mono;
+    font-family: Andale Mono, serif;
     font-size: 15px;
-    text-shadow:2px 2px #749280;
+    text-shadow: 2px 2px #749280;
 
 
 }
-.main-header{
+.content{
+    margin: 3em;
+}
+
+
+.main-header {
+    text-align: left;
+
+}
+
+.head-header:hover {
+    cursor: pointer
+}
+
+.sub-header {
     text-align: left;
 }
-.sub-header{
-    text-align: left;
-}
-.intro{
+
+.intro {
     margin-top: 6em;
     max-width: 400px;
 }
-.card{
+
+.card {
 
     border-style: solid;
-    border-color: white;
+    border-color: #535349;
+
 }
-.aboutme{
+
+.aboutme {
+    background-color: #9f9f95;
     font-size: 10px;
     text-align: center;
+    text-shadow: none;
 }
-.nav{
+#aboutme{
+    padding-bottom: 0;
+}
+
+.nav {
     background-color: #9f9f95;
     z-index: 100;
 }
-.nav-link{
+
+
+.nav-link {
     color: #535349;
 }
-.nav-link:hover{
+
+.nav-link:hover {
     color: white;
     cursor: pointer;
 }
-.nav-link:visited{
+
+.nav-link:visited {
     color: #535349;
 }
-a.nav-link:link{
+
+a.nav-link:link {
     color: #535349;
 }
-a.nav-link:hover{
+
+a.nav-link:hover {
     color: white;
 }
-.list-group-item{
-    background-color: #9f9f95;
-}
-.card-header{
+
+
+.list-group-item {
     background-color: #9f9f95;
 }
 
-.hide{
+.card-header {
+    background-color: #9f9f95;
+}
+
+.hide {
     display: none;
 }
-.github-_link{
+
+.github-_link {
     color: #535349;
     text-underline: none;
 }
 
-.github_link:visited{
-    color: #535349;
-    text-underline: none;
-}
-.linkedin_link{
+.github_link:visited {
     color: #535349;
     text-underline: none;
 }
 
-.linkedin_link:visited{
+.linkedin_link {
+    color: #535349;
+    text-underline: none;
+}
+
+.linkedin_link:visited {
     color: #535349;
     text-underline: none;
 }
 
 
 
-@media only screen and (min-width: 992px){
-    #aboutme{
+
+
+
+
+@media only screen and (min-width: 992px) {
+    #aboutme {
         font-size: 25px;
-        padding-bottom: 5em;
     }
+
 
 }
 
