@@ -55,16 +55,17 @@ function renderHTML() {
     </button>
     <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-link gallery" href="#">Projects</a>
-        <a class="nav-link about" href="#">About</a>
-        <a class="nav-link contact" href="#">Contact</a>
+        <a class="nav-link gallery" href="#">projects</a>
+        <a class="nav-link about" href="#">about</a>
+        <a class="nav-link contact" href="#">contact</a>
       </div>
     </div>
   </div>
 </nav3>
 <hr class="me-3" style="width: 100%">
 <br>
-<section id="projects" class="hide">
+<div class="allmain row">
+<section class="col-lg-6 hide" id="projects">
 <div class="card me-3">
   <div class="card-body" style="background-color: #749280">
     <h5 class="card-title text-center">Weather Map</h5>
@@ -131,14 +132,16 @@ function renderHTML() {
 <br>
 <!--insert new project gallery here-->
 </section>
+<div class="col-lg-6">
 <section id="aboutme" class="aboutme hide">
 <div>
 <p>my name is chris eliason</p>
 <p>i live in ft worth, tx</p>
 <p>i enjoy spending time outdoors on my bike riding trails, and along the trinity river</p>
+<p>currently i am in school to become a web developer</p>
 </div>
 </section>
-<section id="contact" class="hide">
+<section id="contact">
 <div class="card me-3">
   <div class="card-header text-center text-dark">
     Let's Connect!
@@ -150,6 +153,18 @@ function renderHTML() {
   </ul>
 </div>
 </section>
+</div>
+<!--<div id="cloud1">-->
+<!--  <img src="../assets/clouds.png" width=200px height=100px>-->
+<!--</div> -->
+<!--<div id="cloud2">-->
+<!--  <img src="../assets/clouds.png" width=200px height=100px>-->
+<!--</div> -->
+<!--<div id="cloud3">-->
+<!--  <img src="../assets/clouds.png" width=200px height=100px>-->
+<!--</div> -->
+</div>
+
 `
     $('#body').html(html)
 
