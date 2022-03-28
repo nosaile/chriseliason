@@ -4,12 +4,17 @@ body {
     background-color: #9f9f95;
     background-image: url("../assets/clouds.png");
     color: #535349;
-    font-family: Andale Mono, serif;
+    /*font-family: Andale Mono, serif;*/
+    font-family: Futura;
     font-size: 15px;
     text-shadow: 2px 2px #749280;
-
+    z-index: 101
 
 }
+
+
+
+
 .content{
     margin: 3em;
 }
@@ -26,11 +31,6 @@ body {
 
 .sub-header {
     text-align: left;
-}
-
-.intro {
-    margin-top: 6em;
-    max-width: 400px;
 }
 
 .card {
@@ -116,13 +116,53 @@ a.nav-link:hover {
 
 
 
+
+
+
 @media only screen and (min-width: 992px) {
     #aboutme {
         font-size: 25px;
     }
 
+    .sun {
+        margin: 1em;
+        height: 70px;
+        background-color: white;
+        box-shadow: 0 0 7px white,
+        0 0 10px yellow,
+        0 0 21px yellow,
+        0 0 42px gold,
+        0 0 82px gold,
+        0 0 92px yellow,
+        0 0 102px red,
+        0 0 151px red;
+        width: 70px;
+        animation: pulse 1s ease infinite alternate,
+        nudge 45s linear infinite alternate;
+        border-radius: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: -1;
 
+
+    }
+
+    @keyframes nudge {
+        0%, 100% {
+            transform: translate(0px, 0px);
+
+        }
+        50% {
+            transform: translate(1290px, 0px);
+        }
+
+        80% {
+            transform: translate(1290px, 0px);
+        }
+    }
 }
+
 
 
 

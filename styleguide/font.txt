@@ -1,1 +1,1 @@
-font: Andale Mono
+font: futura;
