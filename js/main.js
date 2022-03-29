@@ -5,7 +5,7 @@ function renderHTML() {
     let html = "";
     html += `
 <div class="sun"></div>
-<nav1 class="navbar sticky-top navbar-expand-lg navbar-light d-block d-sm-none bg-none ps-5 pe-5" style="background-color: #84857b">
+<nav1 class="navbar sticky-top navbar-expand-lg navbar-light d-block d-sm-none bg-none ps-5 pe-5" style="background-color: #ECDBBA">
   <div class="container-fluid">
   <div class="main row">
 <h2 class="main-header me-3 sticky-top">chris_eliason</h2>
@@ -16,35 +16,35 @@ function renderHTML() {
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-link gallery" href="#">projects</a>
-        <a class="nav-link about" href="#">about</a>
-        <a class="nav-link contact" href="#">contact</a>
+        <a class="nav-link gallery" style="color: #2D4263" href="#">projects</a>
+        <a class="nav-link about" style="color: #2D4263" href="#">about</a>
+        <a class="nav-link contact" style="color: #2D4263" href="#">contact</a>
       </div>
     </div>
   </div>
 </nav1>
 <nav2>
-<div class="small-break sticky-top d-none d-sm-block d-md-none ps-5 pe-5" style="background-color: #84857b">
+<div class="small-break sticky-top d-none d-sm-block d-md-none ps-5 pe-5" style="background-color: #ECDBBA">
 <div class="main row">
 <h2 class="main-header me-3">chris_eliason</h2>
 </div>
 <div class="sub">
 <h6 class="sub-header">full-stack developer</h6>
 </div>
-<ul class="nav sticky-top justify-content-start" style="background-color: #84857b">
+<ul class="nav sticky-top justify-content-start" style="background-color: #ECDBBA">
   <li class="nav-item">
-    <a class="nav-link gallery ps-0">projects</a>
+    <a class="nav-link gallery ps-0" style="color: #2D4263">projects</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link about">about</a>
+    <a class="nav-link about" style="color: #2D4263">about</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link contact">contact</a>
+    <a class="nav-link contact" style="color: #2D4263">contact</a>
   </li>
 </ul>
 </div>
 </nav2>
-<nav3 class="navbar sticky-top navbar-expand-lg navbar-light d-none d-md-block .d-lg-none ps-5 pe-5" style="background-color: #84857b">
+<nav3 class="navbar sticky-top navbar-expand-lg navbar-light d-none d-md-block .d-lg-none ps-5 pe-5" style="background-color: #ECDBBA; color: #2D4263">
   <div class="container-fluid mx-o px-0">
     <h1 class="head-header">chris_eliason</h1>
     <h6 class="sub-header ps-5 pt-3 d-flex align-self-center">full-stack developer</h6>
@@ -53,9 +53,9 @@ function renderHTML() {
     </button>
     <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-link gallery" href="#">projects</a>
-        <a class="nav-link about" href="#">about</a>
-        <a class="nav-link contact" href="#">contact</a>
+        <a class="nav-link gallery" style="color: #2D4263" href="#">projects</a>
+        <a class="nav-link about" style="color: #2D4263"  href="#">about</a>
+        <a class="nav-link contact" style="color: #2D4263" href="#">contact</a>
       </div>
     </div>
   </div>
@@ -65,7 +65,7 @@ function renderHTML() {
 <div class="allmain row justify-content-center">
 <section class="col-lg-6 hide" id="projects">
 <div class="card me-3">
-  <div class="card-body" style="background-color: #749280">
+  <div class="card-body" style="background-color: #ECDBBA">
     <h5 class="card-title text-center">Weather Map</h5>
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
@@ -95,7 +95,7 @@ function renderHTML() {
 </div>
 <br>
 <div class="card me-3">
-  <div class="card-body" style="background-color: #749280">
+  <div class="card-body" style="background-color: #ECDBBA">
     <h5 class="card-title text-center">Coffee Project</h5>
     <div id="carouselExampleControls1" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
@@ -132,7 +132,7 @@ function renderHTML() {
 <!--insert new project gallery here-->
 </section>
 <div class="col-lg-6">
-<section id="aboutme" class="aboutme card hide" style="background-color: #749280">
+<section id="aboutme" class="aboutme card hide" style="background-color: #ECDBBA">
 <div>
 <p>My name is Chris Eliason</p>
 <p>I live in Ft Worth, TX</p>
@@ -143,13 +143,13 @@ function renderHTML() {
 <br>
 <section id="contact">
 <div class="card me-3 highlight" >
-  <div class="card-header text-center text-dark" style="background-color: #749280">
+  <div class="card-header text-center text-dark" style="background-color: #ECDBBA">
     Let's Connect!
   </div>
   <ul class="list-group contact-list text-center list-group-flush">
-    <li class="list-group-item" style="background-color: #749280"><a class="github_link" href="https://github.com/nosaile" target="_blank">github</a></li>
-    <li class="list-group-item" style="background-color: #749280"><a class="linkedin_link" href="https://www.linkedin.com/in/christopher-eliason-3649b4231/" target="_blank">LinkedIn</a></li>
-    <li class="list-group-item" style="background-color: #749280;color: #535349">eliason.chris1@gmail.com</li>
+    <li class="list-group-item" style="background-color: #ECDBBA"><a class="github_link" href="https://github.com/nosaile" target="_blank">github</a></li>
+    <li class="list-group-item" style="background-color: #ECDBBA"><a class="linkedin_link" href="https://www.linkedin.com/in/christopher-eliason-3649b4231/" target="_blank">LinkedIn</a></li>
+    <li class="list-group-item" style="background-color: #ECDBBA;color: #2C272E">eliason.chris1@gmail.com</li>
   </ul>
 </div>
 </section>

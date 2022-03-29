@@ -1,17 +1,16 @@
 
 body {
     margin-top: 1em;
-    background-color: #9f9f95;
-    background-image: url("../assets/clouds.png");
-    color: #535349;
+    background-color: #191919;
+    /*background-image: url("../assets/clouds.png");*/
+    color: #2D4263;
     /*font-family: Andale Mono, serif;*/
     font-family: Futura;
     font-size: 15px;
-    text-shadow: 2px 2px #749280;
+    /*text-shadow: 1px 0px #C84B31;*/
     z-index: 101
 
 }
-
 
 
 
@@ -36,7 +35,8 @@ body {
 .card {
 
     border-style: solid;
-    border-color: #535349;
+    border-width: 3px;
+    border-color: #C84B31;
 
 }
 
@@ -51,39 +51,39 @@ body {
 }
 
 .nav {
-    background-color: #9f9f95;
+    background-color: #6DB193;
     z-index: 100;
 }
 
 
-.nav-link {
-    color: #535349;
+a.nav-link {
+    color: #2D4263;
 }
 
 .nav-link:hover {
-    color: white;
+    color: #2D4263;
     cursor: pointer;
 }
 
 .nav-link:visited {
-    color: #535349;
+    color: #2D4263;
 }
 
 a.nav-link:link {
-    color: #535349;
+    color: #2D4263;
 }
 
 a.nav-link:hover {
-    color: white;
+    color: #C84B31;
 }
 
 
-.list-group-item {
-    background-color: #9f9f95;
-}
+/*.list-group-item {*/
+/*    background-color: #6DB193;*/
+/*}*/
 
 .card-header {
-    background-color: #9f9f95;
+    background-color: #6DB193;
 }
 
 .hide {
@@ -91,22 +91,22 @@ a.nav-link:hover {
 }
 
 .github-_link {
-    color: #535349;
+    color: #2C272E;
     text-underline: none;
 }
 
 .github_link:visited {
-    color: #535349;
+    color: #2C272E;
     text-underline: none;
 }
 
 .linkedin_link {
-    color: #535349;
+    color: #2C272E;
     text-underline: none;
 }
 
 .linkedin_link:visited {
-    color: #535349;
+    color: #2C272E;
     text-underline: none;
 }
 
@@ -129,13 +129,13 @@ a.nav-link:hover {
         height: 70px;
         background-color: white;
         box-shadow: 0 0 7px white,
-        0 0 10px yellow,
-        0 0 21px yellow,
-        0 0 42px gold,
-        0 0 82px gold,
-        0 0 92px yellow,
-        0 0 102px red,
-        0 0 151px red;
+        0 0 10px white,
+        0 0 21px white,
+        0 0 42px white,
+        0 0 82px #C84B31,
+        0 0 92px #C84B31,
+        0 0 102px #C84B31,
+        0 0 151px #C84B31;
         width: 70px;
         animation: pulse 1s ease infinite alternate,
         nudge 45s linear infinite alternate;
