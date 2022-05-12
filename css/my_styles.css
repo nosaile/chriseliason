@@ -1,7 +1,7 @@
 
 body {
     margin-top: 1em;
-    background-color: #191919;
+    background-color: steelblue;
     /*background-image: url("../assets/clouds.png");*/
     color: #2D4263;
     /*font-family: Andale Mono, serif;*/
@@ -36,12 +36,12 @@ body {
 
     border-style: solid;
     border-width: 3px;
-    border-color: #C84B31;
+    border-color: black;
 
 }
 
 .aboutme {
-    background-color: #9f9f95;
+    background-color: white;
     font-size: 10px;
     text-align: center;
     text-shadow: none;
@@ -83,7 +83,7 @@ a.nav-link:hover {
 /*}*/
 
 .card-header {
-    background-color: #6DB193;
+    background-color: white;
 }
 
 .hide {
@@ -119,49 +119,49 @@ a.nav-link:hover {
 
 
 
-@media only screen and (min-width: 992px) {
-    #aboutme {
-        font-size: 25px;
-    }
+/*@media only screen and (min-width: 992px) {*/
+/*    #aboutme {*/
+/*        font-size: 25px;*/
+/*    }*/
 
-    .sun {
-        margin: 1em;
-        height: 70px;
-        background-color: white;
-        box-shadow: 0 0 7px white,
-        0 0 10px white,
-        0 0 21px white,
-        0 0 42px white,
-        0 0 82px #C84B31,
-        0 0 92px #C84B31,
-        0 0 102px #C84B31,
-        0 0 151px #C84B31;
-        width: 70px;
-        animation: pulse 1s ease infinite alternate,
-        nudge 45s linear infinite alternate;
-        border-radius: 100%;
-        position: absolute;
-        left: 0;
-        top: 0;
-        z-index: -1;
+/*    .sun {*/
+/*        margin: 1em;*/
+/*        height: 70px;*/
+/*        background-color: white;*/
+/*        box-shadow: 0 0 7px white,*/
+/*        0 0 10px white,*/
+/*        0 0 21px white,*/
+/*        0 0 42px white,*/
+/*        0 0 82px #C84B31,*/
+/*        0 0 92px #C84B31,*/
+/*        0 0 102px #C84B31,*/
+/*        0 0 151px #C84B31;*/
+/*        width: 70px;*/
+/*        animation: pulse 1s ease infinite alternate,*/
+/*        nudge 45s linear infinite alternate;*/
+/*        border-radius: 100%;*/
+/*        position: absolute;*/
+/*        left: 0;*/
+/*        top: 0;*/
+/*        z-index: -1;*/
 
 
-    }
+/*    }*/
 
-    @keyframes nudge {
-        0%, 100% {
-            transform: translate(0px, 0px);
+/*    @keyframes nudge {*/
+/*        0%, 100% {*/
+/*            transform: translate(0px, 0px);*/
 
-        }
-        50% {
-            transform: translate(1290px, 0px);
-        }
+/*        }*/
+/*        50% {*/
+/*            transform: translate(1290px, 0px);*/
+/*        }*/
 
-        80% {
-            transform: translate(1290px, 0px);
-        }
-    }
-}
+/*        80% {*/
+/*            transform: translate(1290px, 0px);*/
+/*        }*/
+/*    }*/
+/*}*/
 
 
 
