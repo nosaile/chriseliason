@@ -129,15 +129,138 @@ function renderHTML() {
   </div>
 </div>
 <br>
+<div class="card me-3">
+  <div class="card-body" style="background-color: #ECDBBA">
+    <h5 class="card-title text-center">Weather Map</h5>
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="../assets/weathermap1.png" class="d-block w-100" alt="weather map project">
+    </div>
+    <div class="carousel-item">
+      <img src="../assets/weathermap2.png" class="d-block w-100" alt="weather map project">
+    </div>
+    <div class="carousel-item">
+      <img src="../assets/weathermap3.png" class="d-block w-100" alt="weather map project">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+    <p class="card-text">This was my first solo project! I was tasked with creating a weather app that had a range of functionality. It includes a search function, custom location pin, and a drag and drop pin.
+    It updates the weather based off of where the pin is located on the map.</p>
+    <a href="https://github.com/nosaile/codeup-web-exercises/blob/main/JS/weathermap_project.js" target="_blank" class="btn" style="background-color: #9f9f95; border-style: solid; border-color: #9f9f95">Check out the code  here!</a>
+  </div>
+</div>
+<div class="card me-3">
+  <div class="card-body" style="background-color: #ECDBBA">
+    <h5 class="card-title text-center">Movie App</h5>
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="../assets/movie1.png" class="d-block w-100" alt="weather map project">
+    </div>
+    <div class="carousel-item">
+      <img src="../assets/movie2.png" class="d-block w-100" alt="weather map project">
+    </div>
+    <div class="carousel-item">
+      <img src="../assets/movie3.png" class="d-block w-100" alt="weather map project">
+    </div>
+    <div class="carousel-item">
+      <img src="../assets/movie4.png" class="d-block w-100" alt="weather map project">
+    </div>
+    <div class="carousel-item">
+      <img src="../assets/movie5.png" class="d-block w-100" alt="weather map project">
+    </div>
+    <div class="carousel-item">
+      <img src="../assets/movie6.png" class="d-block w-100" alt="weather map project">
+    </div>
+    <div class="carousel-item">
+      <img src="../assets/movie7.png" class="d-block w-100" alt="weather map project">
+    </div>
+    <div class="carousel-item">
+      <img src="../assets/movie8.png" class="d-block w-100" alt="weather map project">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+    <p class="card-text">This was a paired programming project I completed with a partner. We were tasked with creating a webpage capable of adding a movie to a database, deleting a movie from a database, searching for movies through a database and editing movies from a database. 
+    We wanted to build a very aesthetic and easy to look at site. Using the OMDBapi I grabbed the information we wanted to use from the movies and formatted it tp display for the user. Creating this was so much fun, and currently I am working on building my own API and database so that I can completely make this how I envisioned it. 
+    When using the search movie bar, it will add the movie at the end of the list once you hit enter. The filter movies bar will allow you to type in whatever you want, so you can search by rating, title, release year, whatever you want!</p>
+    <a href="https://rich-chris.github.io/RichandChris-movieApp/" target="_blank" class="btn" style="background-color: #9f9f95; border-style: solid; border-color: #9f9f95">Check out the site here!</a>
+  </div>
+</div>
+<div class="card me-3">
+  <div class="card-body" style="background-color: #ECDBBA">
+    <h5 class="card-title text-center">Contacts Manager App</h5>
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="../assets/man1.png" class="d-block w-100" alt="weather map project">
+    </div>
+    <div class="carousel-item">
+      <img src="../assets/man2.png" class="d-block w-100" alt="weather map project">
+    </div>
+    <div class="carousel-item">
+      <img src="../assets/man3.png" class="d-block w-100" alt="weather map project">
+    </div>
+    <div class="carousel-item">
+      <img src="../assets/man4.png" class="d-block w-100" alt="weather map project">
+    </div>
+    <div class="carousel-item">
+      <img src="../assets/man5.png" class="d-block w-100" alt="weather map project">
+    </div>
+    <div class="carousel-item">
+      <img src="../assets/man6.png" class="d-block w-100" alt="weather map project">
+    </div>
+    <div class="carousel-item">
+      <img src="../assets/man7.png" class="d-block w-100" alt="weather map project">
+    </div>
+    <div class="carousel-item">
+      <img src="../assets/man8.png" class="d-block w-100" alt="weather map project">
+    </div>
+    <div class="carousel-item">
+      <img src="../assets/man9.png" class="d-block w-100" alt="weather map project">
+    </div>
+    <div class="carousel-item">
+      <img src="../assets/man10.png" class="d-block w-100" alt="weather map project">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+    <p class="card-text">A paired programming project I participated in. We created a simple contacts manager, so that you will never forget your friends phone numbers :) It works very well, and I encourage you to check it out on github!</p>
+    <a href="https://github.com/Chris-Keith/ContactsManager/tree/dev/src" target="_blank" class="btn" style="background-color: #9f9f95; border-style: solid; border-color: #9f9f95">Check out the code  here!</a>
+  </div>
+</div>
 <!--insert new project gallery here-->
 </section>
 <div class="col-lg-6">
 <section id="aboutme" class="aboutme card hide" style="background-color: #ECDBBA">
 <div>
 <p>My name is Chris Eliason</p>
-<p>I live in Ft Worth, TX</p>
-<p>I enjoy spending time outdoors on my bike riding trails, and along the trinity river</p>
-<p>Currently I am in school to become a web developer learning skills in javascript, html, css, java, MySQL and spring</p>
+<p>I live in Lubbock, TX</p>
+<p>I enjoy spending time outdoors on my bike riding trails, especially out at Palo Duro Canyon</p>
+<p>Currently I am in school to become a web developer learning skills in javascript, html, css, java, MySQL and spring.</p>
 </div>
 </section>
 <br>
