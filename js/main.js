@@ -196,20 +196,12 @@ function renderHTML() {
       <img src="../assets/man5.png" class="d-block w-100" alt="weather map project">
     </div>
     <div class="carousel-item">
-      <img src="../assets/man6.png" class="d-block w-100" alt="weather map project">
-    </div>
-    <div class="carousel-item">
       <img src="../assets/man7.png" class="d-block w-100" alt="weather map project">
-    </div>
-    <div class="carousel-item">
-      <img src="../assets/man8.png" class="d-block w-100" alt="weather map project">
     </div>
     <div class="carousel-item">
       <img src="../assets/man9.png" class="d-block w-100" alt="weather map project">
     </div>
-    <div class="carousel-item">
-      <img src="../assets/man10.png" class="d-block w-100" alt="weather map project">
-    </div>
+   
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
