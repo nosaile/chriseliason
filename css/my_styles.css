@@ -1,166 +1,112 @@
-
-body {
+ body{
     margin-top: 1em;
-    background-color: steelblue;
+    margin-left: 1em;
+    margin-right: 1em;
+    background-image: linear-gradient(to bottom right, black, darkcyan);
+     background-repeat: no-repeat;
+     background-size: cover;
     /*background-image: url("../assets/clouds.png");*/
-    color: #2D4263;
+
     /*font-family: Andale Mono, serif;*/
     font-family: Futura;
-    font-size: 15px;
-    /*text-shadow: 1px 0px #C84B31;*/
-    z-index: 101
+    font-size: 20px;
+    /*text-shadow: 1px 0px lightcoral;*/
+
+
 
 }
 
 
 
-.content{
-    margin: 3em;
-}
-
-
-.main-header {
-    text-align: left;
-
-}
-
-.head-header:hover {
-    cursor: pointer
-}
-
-.sub-header {
-    text-align: left;
-}
-
-.card {
-
-    border-style: solid;
-    border-width: 3px;
-    border-color: black;
-
-}
-
-.aboutme {
-    background-color: white;
-    font-size: 10px;
-    text-align: center;
-    text-shadow: none;
-}
-#aboutme{
-    padding-bottom: 0;
-}
-
-.nav {
-    background-color: #6DB193;
-    z-index: 100;
-}
-
-
-a.nav-link {
-    color: #2D4263;
-}
-
-.nav-link:hover {
-    color: #2D4263;
-    cursor: pointer;
-}
-
-.nav-link:visited {
-    color: #2D4263;
-}
-
-a.nav-link:link {
-    color: #2D4263;
-}
-
-a.nav-link:hover {
-    color: #C84B31;
-}
-
-
-/*.list-group-item {*/
-/*    background-color: #6DB193;*/
+/*.content{*/
+/*    margin: 3em;*/
 /*}*/
 
-.card-header {
-    background-color: white;
-}
 
-.hide {
-    display: none;
-}
+/*.main-header {*/
+/*    text-align: left;*/
 
-.github-_link {
-    color: #2C272E;
-    text-underline: none;
-}
+/*}*/
 
-.github_link:visited {
-    color: #2C272E;
-    text-underline: none;
-}
+/*.head-header:hover {*/
+/*    cursor: pointer*/
+/*}*/
 
-.linkedin_link {
-    color: #2C272E;
-    text-underline: none;
-}
+/*.sub-header {*/
+/*    text-align: left;*/
+/*}*/
 
-.linkedin_link:visited {
-    color: #2C272E;
-    text-underline: none;
-}
+/*.card {*/
 
+/*    border-style: solid;*/
+/*    border-width: 3px;*/
+/*    border-color: black;*/
 
+/*}*/
 
+/*.aboutme {*/
+/*    background-color: white;*/
+/*    font-size: 10px;*/
+/*    text-align: center;*/
+/*    text-shadow: none;*/
+/*}*/
+/*#aboutme{*/
+/*    padding-bottom: 0;*/
+/*}*/
 
-
-
-
-
-
-
-/*@media only screen and (min-width: 992px) {*/
-/*    #aboutme {*/
-/*        font-size: 25px;*/
-/*    }*/
-
-/*    .sun {*/
-/*        margin: 1em;*/
-/*        height: 70px;*/
-/*        background-color: white;*/
-/*        box-shadow: 0 0 7px white,*/
-/*        0 0 10px white,*/
-/*        0 0 21px white,*/
-/*        0 0 42px white,*/
-/*        0 0 82px #C84B31,*/
-/*        0 0 92px #C84B31,*/
-/*        0 0 102px #C84B31,*/
-/*        0 0 151px #C84B31;*/
-/*        width: 70px;*/
-/*        animation: pulse 1s ease infinite alternate,*/
-/*        nudge 45s linear infinite alternate;*/
-/*        border-radius: 100%;*/
-/*        position: absolute;*/
-/*        left: 0;*/
-/*        top: 0;*/
-/*        z-index: -1;*/
+/*.nav {*/
+/*    background-color: #6DB193;*/
+/*    z-index: 100;*/
+/*}*/
 
 
-/*    }*/
+/*a.nav-link {*/
+/*    color: #2D4263;*/
+/*}*/
 
-/*    @keyframes nudge {*/
-/*        0%, 100% {*/
-/*            transform: translate(0px, 0px);*/
+/*.nav-item:hover {*/
+/*    color: darkcyan;*/
+/*    cursor: pointer;*/
+/*}*/
 
-/*        }*/
-/*        50% {*/
-/*            transform: translate(1290px, 0px);*/
-/*        }*/
+/*.nav-link:visited {*/
+/*    color: #2D4263;*/
+/*}*/
 
-/*        80% {*/
-/*            transform: translate(1290px, 0px);*/
-/*        }*/
-/*    }*/
+/*a.nav-link:link {*/
+/*    color: #2D4263;*/
+/*}*/
+
+/*a.nav-link:hover {*/
+/*    color: darkcyan;*/
+/*}*/
+
+/*.card-header {*/
+/*    background-color: white;*/
+/*}*/
+
+/*.hide {*/
+/*    display: none;*/
+/*}*/
+
+/*.github-_link {*/
+/*    color: #2C272E;*/
+/*    text-underline: none;*/
+/*}*/
+
+/*.github_link:visited {*/
+/*    color: #2C272E;*/
+/*    text-underline: none;*/
+/*}*/
+
+/*.linkedin_link {*/
+/*    color: #2C272E;*/
+/*    text-underline: none;*/
+/*}*/
+
+/*.linkedin_link:visited {*/
+/*    color: #2C272E;*/
+/*    text-underline: none;*/
 /*}*/
 
 
