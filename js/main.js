@@ -5,7 +5,7 @@ renderHTML()
 function renderHTML() {
     let html = "";
     html += `
-<nav class="navbar  sticky-top navbar-expand-lg navbar-dark" style="align-content: center">
+<nav class="navbar  sticky-top navbar-expand-lg navbar-light" style="align-content: center">
   <div class="container-fluid">
 <!--    <a class="navbar-brand" style="color: black" href="#">-->
 <!--      <img src="../assets/newheadshot.PNG" alt="photo of christopher eliason" style="border-radius: 100px; height: 100px; width: 100px">-->
@@ -32,11 +32,17 @@ function renderHTML() {
     </div>
     </div>
 </nav>
+<div class="welcome-small">
+<div class="jumbotron jumbotron-fluid">
+  <div class="container row">
+    <h1 class="display-4 col">chris eliason</h1>
+  </div>
+</div>
+</div>
 <div class="welcome">
 <div class="jumbotron jumbotron-fluid">
   <div class="container row">
     <h1 class="display-4 col">christopher eliason</h1>
-    
   </div>
 </div>
 </div>

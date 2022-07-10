@@ -13,7 +13,7 @@ body {
 
 html{
     height: 100%;
-    width: auto;
+    width: 100%;
     cursor: url(../assets/iconmonstr-x-mark-7.svg), auto;
 }
 
@@ -23,15 +23,32 @@ html{
 }
 
 .display-4 {
-    margin-top: 6.5em;
+    margin-top: 5em;
     font-size: 85px;
     text-align: start;
     color: black;
     font-family: Futura;
+    width: 100%;
+}
+
+nav{
+    z-index: 1000;
 }
 
 a:hover{
     cursor: url(../assets/iconmonstr-x-mark-6.svg), auto;
+}
+@media screen and (max-width:474px){
+    .welcome-small {
+        display:block;
+    }
+
+}
+@media screen and (min-width:475px){
+    .welcome-small {
+        display:none;
+    }
+
 }
 
 
