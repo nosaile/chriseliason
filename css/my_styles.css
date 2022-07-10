@@ -31,6 +31,15 @@ html{
     font-family: Futura;
     width: 100%;
 }
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+
 
 
 a:hover{
@@ -61,6 +70,7 @@ a:hover{
     }
 
 }
+
 
 
 

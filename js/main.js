@@ -17,21 +17,34 @@ function renderHTML() {
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mx-auto me-auto mb-2 mb-lg-0 ">
          <li class="nav-item">
-          <a class="nav-link active" style="color: black; margin-right: 50px" href="#">(home)</a>
+          <a class="nav-link active" id="home" style="color: black; margin-right: 50px" href="#">(home)</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" style="color: black; margin-right: 50px" href="#">(projects)</a>
+          <a class="nav-link active" id="project" style="color: black; margin-right: 50px" href="#">(projects)</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" style="color: black; margin-right: 50px" href="#">(about)</a>
+          <a class="nav-link active" id="about" style="color: black; margin-right: 50px" href="#">(about)</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" style="color: black; margin-right: 50px" href="#">(contact)</a>
+          <a class="nav-link active" id="contact" style="color: black; margin-right: 50px" href="#">(contact)</a>
         </li>
       </ul>
     </div>
     </div>
 </nav>
+<div class="modal" id="projects" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Hello World</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Here is project information</p>
+      </div>
+    </div>
+  </div>
+</div>
 <div class="welcome-small">
 <div class="jumbotron jumbotron-fluid">
   <div class="container row">
@@ -57,10 +70,17 @@ function renderHTML() {
     //     $('.aboutme').toggleClass('hide');
     // });
     //
-    // $('.gallery').on('click', function (e) {
-    //     e.preventDefault();
-    //     $('#projects').toggleClass('hide');
-    // });
+    $('#project').on('click', function (e) {
+
+        $('#projects').toggleClass('show');
+        $('#projects').removeClass('hide');
+    });
+
+    $('.btn-close').on('click', function (e) {
+
+        $('#projects').toggleClass('hide');
+        $('#projects').removeClass('show');
+    });
     // $('.contact').on('click', function (e) {
     //     e.preventDefault();
     //     $('#contact').toggleClass('hide');
