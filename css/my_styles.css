@@ -4,7 +4,7 @@ body {
     margin-right: 1em;
     background-image: linear-gradient(to bottom right, springgreen, lightskyblue);
     background-repeat: no-repeat;
-    background-size: cover;
+    /*background-size: cover;*/
     font-family: Futura;
     font-size: 20px;
     cursor: url(../assets/iconmonstr-x-mark-7.svg), auto;
@@ -17,9 +17,20 @@ html{
     cursor: url(../assets/iconmonstr-x-mark-7.svg), auto;
 }
 
+.project-selection {
+    position: fixed;
+    bottom: 50%;
+    text-align: center;
+    color: black;
+    font-family: Futura;
+    width: 94%;
+}
 
-.container{
 
+.weather-map{
+    justify-content: center;
+    height: 35%;
+    width: 70%;
 }
 
 .display-4 {
@@ -40,7 +51,9 @@ html{
 }
 
 
-
+button:hover{
+cursor: url(../assets/iconmonstr-x-mark-6.svg), auto;
+}
 
 a:hover{
     cursor: url(../assets/iconmonstr-x-mark-6.svg), auto;
