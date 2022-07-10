@@ -23,7 +23,8 @@ html{
 }
 
 .display-4 {
-    margin-top: 5em;
+    position: fixed;
+    bottom: 10%;
     font-size: 85px;
     text-align: start;
     color: black;
@@ -31,9 +32,6 @@ html{
     width: 100%;
 }
 
-nav{
-    z-index: 1000;
-}
 
 a:hover{
     cursor: url(../assets/iconmonstr-x-mark-6.svg), auto;
@@ -47,6 +45,19 @@ a:hover{
 @media screen and (min-width:475px){
     .welcome-small {
         display:none;
+    }
+
+}
+
+@media screen and (max-width:474px){
+    .welcome {
+        display:none;
+    }
+
+}
+@media screen and (min-width:475px){
+    .welcome {
+        display:block;
     }
 
 }
