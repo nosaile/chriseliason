@@ -1,113 +1,41 @@
- body{
+body {
     margin-top: 1em;
     margin-left: 1em;
     margin-right: 1em;
-    background-image: linear-gradient(to bottom right, black, darkcyan);
-     background-repeat: no-repeat;
-     background-size: cover;
-    /*background-image: url("../assets/clouds.png");*/
-
-    /*font-family: Andale Mono, serif;*/
+    background-image: linear-gradient(to bottom right, springgreen, lightskyblue);
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: Futura;
     font-size: 20px;
-    /*text-shadow: 1px 0px lightcoral;*/
+    cursor: url(../assets/iconmonstr-x-mark-7.svg), auto;
+
+}
+
+html{
+    height: 100%;
+    width: auto;
+    cursor: url(../assets/iconmonstr-x-mark-7.svg), auto;
+}
 
 
+.container{
 
+}
+
+.display-4 {
+    margin-top: 6.5em;
+    font-size: 85px;
+    text-align: start;
+    color: black;
+    font-family: Futura;
+}
+
+a:hover{
+    cursor: url(../assets/iconmonstr-x-mark-6.svg), auto;
 }
 
 
 
-/*.content{*/
-/*    margin: 3em;*/
-/*}*/
-
-
-/*.main-header {*/
-/*    text-align: left;*/
-
-/*}*/
-
-/*.head-header:hover {*/
-/*    cursor: pointer*/
-/*}*/
-
-/*.sub-header {*/
-/*    text-align: left;*/
-/*}*/
-
-/*.card {*/
-
-/*    border-style: solid;*/
-/*    border-width: 3px;*/
-/*    border-color: black;*/
-
-/*}*/
-
-/*.aboutme {*/
-/*    background-color: white;*/
-/*    font-size: 10px;*/
-/*    text-align: center;*/
-/*    text-shadow: none;*/
-/*}*/
-/*#aboutme{*/
-/*    padding-bottom: 0;*/
-/*}*/
-
-/*.nav {*/
-/*    background-color: #6DB193;*/
-/*    z-index: 100;*/
-/*}*/
-
-
-/*a.nav-link {*/
-/*    color: #2D4263;*/
-/*}*/
-
-/*.nav-item:hover {*/
-/*    color: darkcyan;*/
-/*    cursor: pointer;*/
-/*}*/
-
-/*.nav-link:visited {*/
-/*    color: #2D4263;*/
-/*}*/
-
-/*a.nav-link:link {*/
-/*    color: #2D4263;*/
-/*}*/
-
-/*a.nav-link:hover {*/
-/*    color: darkcyan;*/
-/*}*/
-
-/*.card-header {*/
-/*    background-color: white;*/
-/*}*/
-
-/*.hide {*/
-/*    display: none;*/
-/*}*/
-
-/*.github-_link {*/
-/*    color: #2C272E;*/
-/*    text-underline: none;*/
-/*}*/
-
-/*.github_link:visited {*/
-/*    color: #2C272E;*/
-/*    text-underline: none;*/
-/*}*/
-
-/*.linkedin_link {*/
-/*    color: #2C272E;*/
-/*    text-underline: none;*/
-/*}*/
-
-/*.linkedin_link:visited {*/
-/*    color: #2C272E;*/
-/*    text-underline: none;*/
-/*}*/
 
 
 
