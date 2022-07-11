@@ -58,10 +58,10 @@ If you would like to keep up with the projects I work on or would like to collab
 <div class="contact-me hide">
 
 <a id="linkedIn" type="button" target="_blank" href="https://www.linkedin.com/in/christopher-eliason/">
-<img src="../assets/iconmonstr-linkedin-3.svg"></a>
+<img src="../assets/iconmonstr-linkedin-3.svg" alt="linkedIn"></a>
 
 <a href="https://github.com/nosaile" target="_blank">
-<img src="../assets/iconmonstr-github-3.svg"></a>
+<img src="../assets/iconmonstr-github-3.svg" alt="github"></a>
 
 </div>
 
