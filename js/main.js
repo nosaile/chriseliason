@@ -9,10 +9,6 @@ function renderHTML() {
     html += `
 <nav class="navbar  sticky-top navbar-expand-lg navbar-light" style="align-content: center">
   <div class="container-fluid">
-<!--    <a class="navbar-brand" style="color: black" href="#">-->
-<!--      <img src="../assets/newheadshot.PNG" alt="photo of christopher eliason" style="border-radius: 100px; height: 100px; width: 100px">-->
-<!--      christopher eliason</a>-->
-     
        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -20,126 +16,53 @@ function renderHTML() {
       <ul class="navbar-nav mx-auto me-auto mb-2 mb-lg-0 ">
          <li class="nav-item">
           <a class="nav-link active" id="home" style="color: black; margin-right: 50px" href="#">(home)</a>
-          <a class="vetted hide">project vetted</a>
-          <a class="weathermap hide">weather map</a>
-          <a class="contacts-manager hide">contacts manager</a>
         </li>
         <li class="nav-item">
           <a class="nav-link active" id="project" style="color: black; margin-right: 50px">(projects)</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" id="about" style="color: black; margin-right: 50px" href="#">(about)</a>
+          <a class="nav-link active" id="about" style="color: black; margin-right: 50px">(about)</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" id="contact" style="color: black; margin-right: 50px" href="#">(contact)</a>
+          <a class="nav-link active" id="contact" style="color: black; margin-right: 50px">(contact)</a>
         </li>
       </ul>
     </div>
     </div>
 </nav>
-<div class="card weather-map mx-auto hide"  style="border: none;background: transparent">
-        <div class="card-body">
-          <h5 class="card-title text-center">Weather Map</h5>
-          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="../assets/weathermap1.png" class="d-block w-100" alt="weather map project">
-              </div>
-              <div class="carousel-item">
-                <img src="../assets/weathermap2.png" class="d-block w-100" alt="weather map project">
-              </div>
-              <div class="carousel-item">
-                <img src="../assets/weathermap3.png" class="d-block w-100" alt="weather map project">
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-          <p class="card-text">This was my first solo project! I was tasked with creating a weather app that had a range of functionality. It includes a search function, custom location pin, and a drag and drop pin.
-            It updates the weather based off of where the pin is located on the map.</p>
-          <a href="https://github.com/nosaile/codeup-web-exercises/blob/main/JS/weathermap_project.js" target="_blank" class="btn" style="background-color: black; color: white; border-style: solid; border-color: #9f9f95">check out the code  here!</a>
-                    <a id="return-projects" target="_blank" class="btn" style="background-color: black; color: white; border-style: solid; border-color: #9f9f95">return to projects</a>
-
-        </div>
-      </div>  
-      <div class="card weather-map mx-auto hide"  style="border: none;background: transparent">
-        <div class="card-body">
-          <h5 class="card-title text-center">Weather Map</h5>
-          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="../assets/weathermap1.png" class="d-block w-100" alt="weather map project">
-              </div>
-              <div class="carousel-item">
-                <img src="../assets/weathermap2.png" class="d-block w-100" alt="weather map project">
-              </div>
-              <div class="carousel-item">
-                <img src="../assets/weathermap3.png" class="d-block w-100" alt="weather map project">
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-          <p class="card-text">This was my first solo project! I was tasked with creating a weather app that had a range of functionality. It includes a search function, custom location pin, and a drag and drop pin.
-            It updates the weather based off of where the pin is located on the map.</p>
-          <a href="https://github.com/nosaile/codeup-web-exercises/blob/main/JS/weathermap_project.js" target="_blank" class="btn" style="background-color: black; color: white; border-style: solid; border-color: #9f9f95">check out the code  here!</a>
-                    <a id="return-projects" target="_blank" class="btn" style="background-color: black; color: white; border-style: solid; border-color: #9f9f95">return to projects</a>
-
-        </div>
-      </div>
-      <div class="card weather-map mx-auto hide"  style="border: none;background: transparent">
-        <div class="card-body">
-          <h5 class="card-title text-center">Weather Map</h5>
-          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="../assets/man1.png" class="d-block w-100" alt="weather map project">
-              </div>
-              <div class="carousel-item">
-                <img src="../assets/man2.png" class="d-block w-100" alt="weather map project">
-              </div>
-              <div class="carousel-item">
-                <img src="../assets/man3.png" class="d-block w-100" alt="weather map project">
-              </div>
-              <div class="carousel-item">
-                <img src="../assets/man4.png" class="d-block w-100" alt="weather map project">
-              </div>
-              <div class="carousel-item">
-                <img src="../assets/man5.png" class="d-block w-100" alt="weather map project">
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-          <p class="card-text">This was my first solo project! I was tasked with creating a weather app that had a range of functionality. It includes a search function, custom location pin, and a drag and drop pin.
-            It updates the weather based off of where the pin is located on the map.</p>
-          <a href="https://github.com/nosaile/codeup-web-exercises/blob/main/JS/weathermap_project.js" target="_blank" class="btn" style="background-color: black; color: white; border-style: solid; border-color: #9f9f95">check out the code  here!</a>
-                    <a id="return-projects" target="_blank" class="btn" style="background-color: black; color: white; border-style: solid; border-color: #9f9f95">return to projects</a>
-
-        </div>
-      </div>    
+  
       <div class="project-selection hide">
-<button class="vetted" style="background-color: transparent; border-color: transparent">[ project vetted </button>
-          <button class="weathermap" style="background-color: transparent; border-color: transparent">weather map </button>
-          <button class="contactsmanager" style="background-color: transparent; border-color: transparent">contacts manager ]</button>
+            <a href="https://github.com/Project-Vetted/vetted" target="_blank" class="btn" style="background-color: transparent; border-color: transparent">[ project vetted </a>
+            <a href="https://github.com/nosaile/codeup-web-exercises/blob/main/JS/weathermap_project.js" target="_blank" class="btn" style="background-color: transparent; border-color: transparent">weather map </button>
+            <a href="https://github.com/Chris-Keith/ContactsManager/tree/dev/src" target="_blank" class="btn" style="background-color: transparent; border-color: transparent">contacts manager </button>
+            <a href="https://james-chris-mark.github.io/coffee-project/" target="_blank" class="btn" style="background-color: transparent; border-color: transparent">coffee shop </button>
+            <a href="https://rich-chris.github.io/RichandChris-movieApp/" target="_blank" class="btn" style="background-color: transparent; border-color: transparent">movies api ]</button>
+</div>
+
+<div class="about-me hide" style="text-align: center">
+<p>I'm from Austin, Texas but grew up in Tuscaloosa, Alabama and then moved to Johnson City, Tennessee. After that I moved back to Texas this time settling  in Lubbock.
+ After I graduated from high school I enlisted in the United States Marine Corps where I served 4 years as a Field Radio Operator
+stationed in Camp Pendleton, California. After my service, I began trying to find a career field that was interesting to me, and more importantly one I was passionate about.
+Eventually after a few years I discovered software development through Codeup's full stack web development course. It was an amazing experience learning to code
+and I am so grateful to have found such an awesome industry.</p>
+<p>
+In my free time I like to take my bike out to New Mexico or Palo Duro Canyon and do some mountain biking. I've always enjoyed being out in nature from a young age
+when I first learned about mountain biking. I'm a huge Indianapolis Colts fan. I watch most other sports but mainly professional football.
+I also enjoy video games like Warthunder, Pokemon, No Man's Sky,and many more! LOTR, SW, HP, in that order.
+</p>
+<p>
+If you would like to keep up with the projects I work on or would like to collaborate please reach out to me! Thanks for stopping by :)
+</p>
+</div>
+
+<div class="contact-me hide">
+
+<a id="linkedIn" type="button" target="_blank" href="https://www.linkedin.com/in/christopher-eliason/">
+<img src="../assets/iconmonstr-linkedin-3.svg"></a>
+
+<a href="https://github.com/nosaile" target="_blank">
+<img src="../assets/iconmonstr-github-3.svg"></a>
+
 </div>
 
 
@@ -161,22 +84,6 @@ function renderHTML() {
 </div>
 `
     $('#body').html(html);
-
-
-    //
-    // $('.about').on('click', function (e) {
-    //     e.preventDefault();
-    //     $('.aboutme').toggleClass('hide');
-    // });
-    //
-    // $('.contact').on('click', function (e) {
-    //     e.preventDefault();
-    //     $('#contact').toggleClass('hide');
-    // });
-    //
-    // $('.head-header').on('click', function (e) {
-    //     location.reload()
-    // });
 }
 
 function homeEvent() {
@@ -192,24 +99,48 @@ function projectsEvent() {
         $('.my-name').toggleClass('hide');
     });
 
-    $('#return-projects').on('click', function (e) {
-        e.preventDefault();
-        $('.weather-map').toggleClass('hide');
-        $('.project-selection').toggleClass('hide');
+    function aboutEvent() {
+        $('#about').on('click', function (e) {
+            e.preventDefault();
+            $('.about-me').toggleClass('hide');
+            if ($('.project-selection').hasClass('hide')) {
 
-    });
+            } else if ($('.my-name').hasClass('hide')) {
 
-    $('.weathermap').on('click', function (e) {
-        e.preventDefault();
-        $('.weather-map').toggleClass('hide');
-        $('.project-selection').toggleClass('hide');
-    });
+            } else if ($('.project-selection').hasClass('show')) {
+                $('.project-selection').toggleClass('hide');
 
-    $('.contactsmanager').on('click', function (e) {
-        e.preventDefault();
-        $('.contacts-manager').toggleClass('hide');
-        $('.project-selection').toggleClass('hide');
-    });
+            } else if ($('.my-name').hasClass('show')) {
+                $('.project-selection').toggleClass('hide');
+            }
 
+        });
+    }
+
+    aboutEvent();
+
+    function contactEvent() {
+        $('#contact').on('click', function (e) {
+            e.preventDefault();
+            $('.contact-me').toggleClass('hide');
+            if ($('.project-selection').hasClass('hide')) {
+
+            } else if ($('.my-name').hasClass('hide')) {
+
+            } else if ($('.project-selection').hasClass('show')) {
+                $('.project-selection').toggleClass('hide');
+
+            } else if ($('.my-name').hasClass('show')) {
+                $('.project-selection').toggleClass('hide');
+            } else if ($('.about-me').hasClass('show')) {
+                $('.about-me').toggleClass('hide');
+
+            } else if ($('.about-me').toggleClass('hide')) {
+
+            }
+
+        });
+    }
+    contactEvent();
 
 }
