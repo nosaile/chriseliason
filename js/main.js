@@ -32,7 +32,7 @@ function renderHTML() {
 </nav>
   
       <div class="project-selection hide">
-            <a href="https://github.com/Project-Vetted/vetted" target="_blank" class="btn" style="background-color: transparent; border-color: transparent">[ project vetted </a>
+            <a href="https://vetted.fulgentcorp.com:8080/" target="_blank" class="btn" style="background-color: transparent; border-color: transparent">[ project vetted </a>
             <a href="https://github.com/nosaile/codeup-web-exercises/blob/main/JS/weathermap_project.js" target="_blank" class="btn" style="background-color: transparent; border-color: transparent">weather map </button>
             <a href="https://github.com/Chris-Keith/ContactsManager/tree/dev/src" target="_blank" class="btn" style="background-color: transparent; border-color: transparent">contacts manager </button>
             <a href="https://james-chris-mark.github.io/coffee-project/" target="_blank" class="btn" style="background-color: transparent; border-color: transparent">coffee shop </button>
